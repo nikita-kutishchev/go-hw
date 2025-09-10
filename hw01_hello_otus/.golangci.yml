@@ -1,0 +1,14 @@
+version: "2"
+
+linters:
+  enable:
+    - govet
+    - errcheck
+    - staticcheck
+
+run:
+  # Включение проверки форматирования
+  gofmt: true
+
+issues:
+  exclude-use-default: false
